@@ -1,0 +1,58 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: lightblue;
+	margin: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 50%; 
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #0b6480;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #031336;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.card {
+    background-color: #616161;
+    color: white;
+    margin-top: 50px;
+    border: none
+}
